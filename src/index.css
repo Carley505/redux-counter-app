@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background:rgb(230, 226, 226);
+}
+
+@layer components{
+    .btn{
+        @apply bg-sky-600 p-2 text-white;
+    }
+}
